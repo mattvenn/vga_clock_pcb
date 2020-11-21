@@ -18,6 +18,8 @@ Bassed on https://raw.githubusercontent.com/efabless/caravel/release/doc/caravel
 
 * Completely untested! Caveat Factorum
 
+'Should' be possible to build with JLCPCB's SMT assembly service - I have tried to use appropriate parts.
+ 
 ![Shiny](https://github.com/samlittlewood/caravel_carrier/blob/main/rev0.1/carrier.png)
 
 ![Schematic](https://github.com/samlittlewood/caravel_carrier/blob/main/rev0.1/carrier.pdf)
