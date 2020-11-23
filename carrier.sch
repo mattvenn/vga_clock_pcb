@@ -196,8 +196,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 1900 7850 1900
 Wire Wire Line
-	7950 1900 7950 1950
-Wire Wire Line
 	9150 1800 9150 1900
 $Comp
 L Device:C_Small C1
@@ -221,7 +219,6 @@ F 3 "~" H 7850 1700 50  0001 C CNN
 	1    7850 1700
 	1    0    0    -1  
 $EndComp
-Connection ~ 7950 1900
 $Comp
 L power:+5V #PWR02
 U 1 1 5FBD0224
@@ -273,16 +270,12 @@ Wire Wire Line
 Connection ~ 9150 1900
 Wire Wire Line
 	8600 1800 8600 1900
-Wire Wire Line
-	7950 1900 8600 1900
 Connection ~ 8600 1900
 Wire Wire Line
 	8600 1900 9150 1900
 Wire Wire Line
 	7850 1800 7850 1900
 Connection ~ 7850 1900
-Wire Wire Line
-	7850 1900 7950 1900
 Wire Wire Line
 	7400 1900 6750 1900
 Wire Wire Line
@@ -373,8 +366,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 3950 7850 3950
 Wire Wire Line
-	7950 3950 7950 4000
-Wire Wire Line
 	9150 3850 9150 3950
 $Comp
 L Device:C_Small C2
@@ -398,7 +389,6 @@ F 3 "~" H 7850 3750 50  0001 C CNN
 	1    7850 3750
 	1    0    0    -1  
 $EndComp
-Connection ~ 7950 3950
 $Comp
 L power:+5V #PWR04
 U 1 1 5FBF247C
@@ -450,16 +440,12 @@ Wire Wire Line
 Connection ~ 9150 3950
 Wire Wire Line
 	8600 3850 8600 3950
-Wire Wire Line
-	7950 3950 8600 3950
 Connection ~ 8600 3950
 Wire Wire Line
 	8600 3950 9150 3950
 Wire Wire Line
 	7850 3850 7850 3950
 Connection ~ 7850 3950
-Wire Wire Line
-	7850 3950 7950 3950
 Wire Wire Line
 	7400 3950 6750 3950
 Wire Wire Line
@@ -707,12 +693,12 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0102
 U 1 1 5FD00A30
-P 2250 3350
-F 0 "#PWR0102" H 2250 3200 50  0001 C CNN
-F 1 "+5V" H 2265 3523 50  0000 C CNN
-F 2 "" H 2250 3350 50  0001 C CNN
-F 3 "" H 2250 3350 50  0001 C CNN
-	1    2250 3350
+P 2350 2900
+F 0 "#PWR0102" H 2350 2750 50  0001 C CNN
+F 1 "+5V" H 2365 3073 50  0000 C CNN
+F 2 "" H 2350 2900 50  0001 C CNN
+F 3 "" H 2350 2900 50  0001 C CNN
+	1    2350 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -744,119 +730,119 @@ Text GLabel 6050 1300 2    50   Input ~ 0
 clock
 Wire Wire Line
 	5400 1300 6050 1300
-Text GLabel 1900 5950 2    50   Input ~ 0
+Text GLabel 1150 3250 0    50   Input ~ 0
 ext_vddio
 Wire Wire Line
-	2250 3350 2250 3450
+	800  5850 800  5750
 Wire Wire Line
-	2250 3450 1900 3450
+	800  5750 1150 5750
 $Comp
 L power:GND #PWR0104
 U 1 1 5FD2B60C
-P 700 6300
-F 0 "#PWR0104" H 700 6050 50  0001 C CNN
-F 1 "GND" H 705 6127 50  0000 C CNN
-F 2 "" H 700 6300 50  0001 C CNN
-F 3 "" H 700 6300 50  0001 C CNN
-	1    700  6300
+P 800 5850
+F 0 "#PWR0104" H 800 5600 50  0001 C CNN
+F 1 "GND" H 805 5677 50  0000 C CNN
+F 2 "" H 800 5850 50  0001 C CNN
+F 3 "" H 800 5850 50  0001 C CNN
+	1    800  5850
 	1    0    0    -1  
 $EndComp
-Text GLabel 1900 5850 2    50   Input ~ 0
+Text GLabel 1150 3350 0    50   Input ~ 0
 ext_1v8
-Text GLabel 1900 5750 2    50   Input ~ 0
-ext_3v3
-Text GLabel 1150 3550 0    50   Input ~ 0
-mprj_io[20]
 Text GLabel 1150 3450 0    50   Input ~ 0
-mprj_io[19]
-Text GLabel 1150 3650 0    50   Input ~ 0
-mprj_io[21]
-Text GLabel 1150 3750 0    50   Input ~ 0
-mprj_io[22]
-Text GLabel 1150 3850 0    50   Input ~ 0
-mprj_io[23]
-Text GLabel 1150 4050 0    50   Input ~ 0
-mprj_io[25]
-Text GLabel 1150 4150 0    50   Input ~ 0
-mprj_io[26]
-Text GLabel 1150 4250 0    50   Input ~ 0
-mprj_io[27]
-Text GLabel 1150 4350 0    50   Input ~ 0
-mprj_io[28]
-Text GLabel 1150 4450 0    50   Input ~ 0
-mprj_io[29]
-Text GLabel 1150 4550 0    50   Input ~ 0
-mprj_io[30]
-Text GLabel 1150 4650 0    50   Input ~ 0
-mprj_io[31]
-Text GLabel 1150 4750 0    50   Input ~ 0
-mprj_io[32]
-Text GLabel 1150 4950 0    50   Input ~ 0
-mprj_io[34]
-Text GLabel 1150 5050 0    50   Input ~ 0
-mprj_io[35]
-Text GLabel 1150 5250 0    50   Input ~ 0
-mprj_io[37]
-Text GLabel 1150 5150 0    50   Input ~ 0
-mprj_io[36]
-Text GLabel 1150 4850 0    50   Input ~ 0
-mprj_io[33]
-Text GLabel 1900 5550 2    50   Input ~ 0
-resetb
-Text GLabel 1900 5450 2    50   Input ~ 0
-clock
-Text GLabel 1150 5450 0    50   Input ~ 0
-flash_csb
-Text GLabel 1900 5350 2    50   Input ~ 0
-mprj_io[0]
-Text GLabel 1150 5550 0    50   Input ~ 0
-flash_io0
-Text GLabel 1150 5650 0    50   Input ~ 0
-flash_io1
-Text GLabel 1900 5250 2    50   Input ~ 0
-mprj_io[1]
-Text GLabel 1150 5750 0    50   Input ~ 0
-flash_clk
-Text GLabel 1900 3550 2    50   Input ~ 0
-mprj_io[18]
-Text GLabel 1900 3650 2    50   Input ~ 0
-mprj_io[17]
-Text GLabel 1900 3750 2    50   Input ~ 0
-mprj_io[16]
-Text GLabel 1900 3950 2    50   Input ~ 0
-mprj_io[14]
-Text GLabel 1900 3850 2    50   Input ~ 0
-mprj_io[15]
-Text GLabel 1900 4050 2    50   Input ~ 0
-mprj_io[13]
-Text GLabel 1900 4250 2    50   Input ~ 0
-mprj_io[11]
-Text GLabel 1900 4150 2    50   Input ~ 0
-mprj_io[12]
-Text GLabel 1900 4350 2    50   Input ~ 0
-mprj_io[10]
-Text GLabel 1900 4450 2    50   Input ~ 0
-mprj_io[9]
-Text GLabel 1900 4550 2    50   Input ~ 0
-mprj_io[8]
-Text GLabel 1900 4650 2    50   Input ~ 0
-mprj_io[7]
-Text GLabel 1900 4750 2    50   Input ~ 0
-mprj_io[6]
-Text GLabel 1900 4850 2    50   Input ~ 0
-mprj_io[5]
-Text GLabel 1900 4950 2    50   Input ~ 0
-mprj_io[4]
-Text GLabel 1900 5050 2    50   Input ~ 0
-mprj_io[3]
-Text GLabel 1900 5150 2    50   Input ~ 0
-mprj_io[2]
+ext_3v3
 Text GLabel 1900 5650 2    50   Input ~ 0
-gpio
+mprj_io[20]
+Text GLabel 1900 5750 2    50   Input ~ 0
+mprj_io[19]
+Text GLabel 1900 5550 2    50   Input ~ 0
+mprj_io[21]
+Text GLabel 1900 5450 2    50   Input ~ 0
+mprj_io[22]
+Text GLabel 1900 5350 2    50   Input ~ 0
+mprj_io[23]
+Text GLabel 1900 5150 2    50   Input ~ 0
+mprj_io[25]
+Text GLabel 1900 5050 2    50   Input ~ 0
+mprj_io[26]
+Text GLabel 1900 4950 2    50   Input ~ 0
+mprj_io[27]
+Text GLabel 1900 4850 2    50   Input ~ 0
+mprj_io[28]
+Text GLabel 1900 4750 2    50   Input ~ 0
+mprj_io[29]
+Text GLabel 1900 4650 2    50   Input ~ 0
+mprj_io[30]
+Text GLabel 1900 4550 2    50   Input ~ 0
+mprj_io[31]
+Text GLabel 1900 4450 2    50   Input ~ 0
+mprj_io[32]
+Text GLabel 1900 4250 2    50   Input ~ 0
+mprj_io[34]
+Text GLabel 1900 4150 2    50   Input ~ 0
+mprj_io[35]
+Text GLabel 1900 3950 2    50   Input ~ 0
+mprj_io[37]
+Text GLabel 1900 4050 2    50   Input ~ 0
+mprj_io[36]
+Text GLabel 1900 4350 2    50   Input ~ 0
+mprj_io[33]
+Text GLabel 1150 3650 0    50   Input ~ 0
+resetb
+Text GLabel 1150 3750 0    50   Input ~ 0
+clock
+Text GLabel 1900 3750 2    50   Input ~ 0
+flash_csb
+Text GLabel 1150 3850 0    50   Input ~ 0
+mprj_io[0]
+Text GLabel 1900 3650 2    50   Input ~ 0
+flash_io0
+Text GLabel 1900 3550 2    50   Input ~ 0
+flash_io1
 Text GLabel 1150 3950 0    50   Input ~ 0
+mprj_io[1]
+Text GLabel 1900 3450 2    50   Input ~ 0
+flash_clk
+Text GLabel 1150 5650 0    50   Input ~ 0
+mprj_io[18]
+Text GLabel 1150 5550 0    50   Input ~ 0
+mprj_io[17]
+Text GLabel 1150 5450 0    50   Input ~ 0
+mprj_io[16]
+Text GLabel 1150 5250 0    50   Input ~ 0
+mprj_io[14]
+Text GLabel 1150 5350 0    50   Input ~ 0
+mprj_io[15]
+Text GLabel 1150 5150 0    50   Input ~ 0
+mprj_io[13]
+Text GLabel 1150 4950 0    50   Input ~ 0
+mprj_io[11]
+Text GLabel 1150 5050 0    50   Input ~ 0
+mprj_io[12]
+Text GLabel 1150 4850 0    50   Input ~ 0
+mprj_io[10]
+Text GLabel 1150 4750 0    50   Input ~ 0
+mprj_io[9]
+Text GLabel 1150 4650 0    50   Input ~ 0
+mprj_io[8]
+Text GLabel 1150 4550 0    50   Input ~ 0
+mprj_io[7]
+Text GLabel 1150 4450 0    50   Input ~ 0
+mprj_io[6]
+Text GLabel 1150 4350 0    50   Input ~ 0
+mprj_io[5]
+Text GLabel 1150 4250 0    50   Input ~ 0
+mprj_io[4]
+Text GLabel 1150 4150 0    50   Input ~ 0
+mprj_io[3]
+Text GLabel 1150 4050 0    50   Input ~ 0
+mprj_io[2]
+Text GLabel 1150 3550 0    50   Input ~ 0
+gpio
+Text GLabel 1900 5250 2    50   Input ~ 0
 mprj_io[24]
 Wire Wire Line
-	1150 5350 700  5350
+	1900 3850 2350 3850
 $Comp
 L Device:C_Small C12
 U 1 1 5FE1829F
@@ -1063,32 +1049,32 @@ NoConn ~ 4800 1300
 $Comp
 L Connector_Generic:Conn_01x26 J2
 U 1 1 6003592E
-P 1350 4650
-F 0 "J2" H 1250 6100 50  0000 L CNN
-F 1 "Conn_01x26" H 1000 6000 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x26_P2.54mm_Vertical" H 1350 4650 50  0001 C CNN
-F 3 "~" H 1350 4650 50  0001 C CNN
-	1    1350 4650
+P 1350 4450
+F 0 "J2" H 1250 5900 50  0000 L CNN
+F 1 "Conn_01x26" H 1000 5800 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x26_P2.54mm_Vertical" H 1350 4450 50  0001 C CNN
+F 3 "~" H 1350 4450 50  0001 C CNN
+	1    1350 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x26 J3
 U 1 1 60038C9C
-P 1700 4650
-F 0 "J3" H 1650 6100 50  0000 C CNN
-F 1 "Conn_01x26" H 1650 6000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x26_P2.54mm_Vertical" H 1700 4650 50  0001 C CNN
-F 3 "~" H 1700 4650 50  0001 C CNN
-	1    1700 4650
+P 1700 4450
+F 0 "J3" H 1650 5900 50  0000 C CNN
+F 1 "Conn_01x26" H 1650 5800 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x26_P2.54mm_Vertical" H 1700 4450 50  0001 C CNN
+F 3 "~" H 1700 4450 50  0001 C CNN
+	1    1700 4450
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	700  5350 700  5950
+	2350 3850 2350 3250
 Wire Wire Line
-	700  5950 1150 5950
-Connection ~ 700  5950
+	2350 3250 1900 3250
+Connection ~ 2350 3250
 Wire Wire Line
-	700  5950 700  6300
+	2350 3250 2350 2900
 $Comp
 L Memory_Flash:W25Q128JVS U2
 U 1 1 6009583E
@@ -1119,4 +1105,23 @@ F 3 "" H 3700 900 50  0001 C CNN
 $EndComp
 Text GLabel 5000 750  0    50   Input ~ 0
 vdda
+$Comp
+L power:GND #PWR?
+U 1 1 5FC5A485
+P 2550 3450
+F 0 "#PWR?" H 2550 3200 50  0001 C CNN
+F 1 "GND" H 2555 3277 50  0000 C CNN
+F 2 "" H 2550 3450 50  0001 C CNN
+F 3 "" H 2550 3450 50  0001 C CNN
+	1    2550 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3350 2550 3350
+Wire Wire Line
+	2550 3350 2550 3450
+Wire Wire Line
+	7850 3950 8600 3950
+Wire Wire Line
+	7850 1900 8600 1900
 $EndSCHEMATC
