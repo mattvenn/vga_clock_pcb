@@ -667,7 +667,7 @@ U 1 1 5FCD8A9B
 P 3000 1200
 F 0 "J1" H 3050 1617 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 3050 1526 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x06_P1.00mm_Vertical_SMD" H 3000 1200 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical_SMD" H 3000 1200 50  0001 C CNN
 F 3 "~" H 3000 1200 50  0001 C CNN
 	1    3000 1200
 	1    0    0    -1  
