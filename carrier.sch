@@ -24,81 +24,81 @@ F 3 "http://www.ti.com/lit/ds/symlink/lp5907.pdf" H 9150 2000 50  0001 C CNN
 	1    9150 1500
 	1    0    0    -1  
 $EndComp
-Text GLabel 3300 2850 0    50   Input ~ 0
+Text GLabel 3300 2850 0    50   BiDi ~ 0
 mprj_io[0]
-Text GLabel 3300 2950 0    50   Input ~ 0
+Text GLabel 3300 2950 0    50   BiDi ~ 0
 mprj_io[1]
-Text GLabel 3300 3050 0    50   Input ~ 0
+Text GLabel 3300 3050 0    50   BiDi ~ 0
 mprj_io[2]
-Text GLabel 3300 3150 0    50   Input ~ 0
+Text GLabel 3300 3150 0    50   BiDi ~ 0
 mprj_io[3]
-Text GLabel 3300 3250 0    50   Input ~ 0
+Text GLabel 3300 3250 0    50   BiDi ~ 0
 mprj_io[4]
-Text GLabel 3300 3350 0    50   Input ~ 0
+Text GLabel 3300 3350 0    50   BiDi ~ 0
 mprj_io[5]
-Text GLabel 3300 3450 0    50   Input ~ 0
+Text GLabel 3300 3450 0    50   BiDi ~ 0
 mprj_io[6]
-Text GLabel 3300 3550 0    50   Input ~ 0
+Text GLabel 3300 3550 0    50   BiDi ~ 0
 mprj_io[7]
-Text GLabel 3300 3650 0    50   Input ~ 0
+Text GLabel 3300 3650 0    50   BiDi ~ 0
 mprj_io[8]
-Text GLabel 3300 3750 0    50   Input ~ 0
+Text GLabel 3300 3750 0    50   BiDi ~ 0
 mprj_io[9]
-Text GLabel 3300 3850 0    50   Input ~ 0
+Text GLabel 3300 3850 0    50   BiDi ~ 0
 mprj_io[10]
-Text GLabel 3300 3950 0    50   Input ~ 0
+Text GLabel 3300 3950 0    50   BiDi ~ 0
 mprj_io[11]
-Text GLabel 3300 4050 0    50   Input ~ 0
+Text GLabel 3300 4050 0    50   BiDi ~ 0
 mprj_io[12]
-Text GLabel 3300 4150 0    50   Input ~ 0
+Text GLabel 3300 4150 0    50   BiDi ~ 0
 mprj_io[13]
-Text GLabel 3300 4250 0    50   Input ~ 0
+Text GLabel 3300 4250 0    50   BiDi ~ 0
 mprj_io[14]
-Text GLabel 3300 4350 0    50   Input ~ 0
+Text GLabel 3300 4350 0    50   BiDi ~ 0
 mprj_io[15]
-Text GLabel 3300 4450 0    50   Input ~ 0
+Text GLabel 3300 4450 0    50   BiDi ~ 0
 mprj_io[16]
-Text GLabel 3300 4550 0    50   Input ~ 0
+Text GLabel 3300 4550 0    50   BiDi ~ 0
 mprj_io[17]
-Text GLabel 3300 4650 0    50   Input ~ 0
+Text GLabel 3300 4650 0    50   BiDi ~ 0
 mprj_io[18]
-Text GLabel 3300 4750 0    50   Input ~ 0
+Text GLabel 3300 4750 0    50   BiDi ~ 0
 mprj_io[19]
-Text GLabel 3300 4850 0    50   Input ~ 0
+Text GLabel 3300 4850 0    50   BiDi ~ 0
 mprj_io[20]
-Text GLabel 3300 4950 0    50   Input ~ 0
+Text GLabel 3300 4950 0    50   BiDi ~ 0
 mprj_io[21]
-Text GLabel 3300 5050 0    50   Input ~ 0
+Text GLabel 3300 5050 0    50   BiDi ~ 0
 mprj_io[22]
-Text GLabel 3300 5150 0    50   Input ~ 0
+Text GLabel 3300 5150 0    50   BiDi ~ 0
 mprj_io[23]
-Text GLabel 3300 5250 0    50   Input ~ 0
+Text GLabel 3300 5250 0    50   BiDi ~ 0
 mprj_io[24]
-Text GLabel 3300 5350 0    50   Input ~ 0
+Text GLabel 3300 5350 0    50   BiDi ~ 0
 mprj_io[25]
-Text GLabel 3300 5450 0    50   Input ~ 0
+Text GLabel 3300 5450 0    50   BiDi ~ 0
 mprj_io[26]
-Text GLabel 3300 5550 0    50   Input ~ 0
+Text GLabel 3300 5550 0    50   BiDi ~ 0
 mprj_io[27]
-Text GLabel 3300 5650 0    50   Input ~ 0
+Text GLabel 3300 5650 0    50   BiDi ~ 0
 mprj_io[28]
-Text GLabel 3300 5750 0    50   Input ~ 0
+Text GLabel 3300 5750 0    50   BiDi ~ 0
 mprj_io[29]
-Text GLabel 3300 5850 0    50   Input ~ 0
+Text GLabel 3300 5850 0    50   BiDi ~ 0
 mprj_io[30]
-Text GLabel 3300 5950 0    50   Input ~ 0
+Text GLabel 3300 5950 0    50   BiDi ~ 0
 mprj_io[31]
-Text GLabel 3300 6050 0    50   Input ~ 0
+Text GLabel 3300 6050 0    50   BiDi ~ 0
 mprj_io[32]
-Text GLabel 3300 6150 0    50   Input ~ 0
+Text GLabel 3300 6150 0    50   BiDi ~ 0
 mprj_io[33]
-Text GLabel 3300 6250 0    50   Input ~ 0
+Text GLabel 3300 6250 0    50   BiDi ~ 0
 mprj_io[34]
-Text GLabel 3300 6350 0    50   Input ~ 0
+Text GLabel 3300 6350 0    50   BiDi ~ 0
 mprj_io[35]
-Text GLabel 3300 6450 0    50   Input ~ 0
+Text GLabel 3300 6450 0    50   BiDi ~ 0
 mprj_io[36]
-Text GLabel 3300 6550 0    50   Input ~ 0
+Text GLabel 3300 6550 0    50   BiDi ~ 0
 mprj_io[37]
 $Comp
 L power:GND #PWR01
@@ -156,7 +156,7 @@ Text GLabel 5900 3950 2    50   Input ~ 0
 resetb
 Text GLabel 5900 4050 2    50   Input ~ 0
 clock
-Text GLabel 5900 4150 2    50   Input ~ 0
+Text GLabel 5900 4150 2    50   Output ~ 0
 gpio
 Text GLabel 5900 5200 2    50   Input ~ 0
 flash_clk
@@ -311,7 +311,7 @@ Wire Wire Line
 	9450 1400 9650 1400
 Wire Wire Line
 	9650 1400 9650 1600
-Text GLabel 10500 1400 2    50   Input ~ 0
+Text GLabel 10500 1400 2    50   Output ~ 0
 vdda
 Text GLabel 8050 1400 2    50   Input ~ 0
 vccd
@@ -321,7 +321,7 @@ Connection ~ 9650 1400
 Wire Wire Line
 	8050 1400 7850 1400
 Connection ~ 7850 1400
-Text GLabel 10500 800  2    50   Input ~ 0
+Text GLabel 10500 800  2    50   Output ~ 0
 vddio
 Wire Wire Line
 	9700 1050 9700 1400
@@ -481,10 +481,10 @@ Wire Wire Line
 	9450 3450 9650 3450
 Wire Wire Line
 	9650 3450 9650 3650
-Text GLabel 10450 3400 2    50   Input ~ 0
+Text GLabel 10450 3400 2    50   Output ~ 0
 vdda2
 Connection ~ 7850 3450
-Text GLabel 10450 3200 2    50   Input ~ 0
+Text GLabel 10450 3200 2    50   Output ~ 0
 vdda1
 Wire Wire Line
 	7900 3450 7850 3450
@@ -540,7 +540,7 @@ Wire Wire Line
 	10500 550  10100 550 
 Wire Wire Line
 	10100 550  10100 600 
-Text GLabel 10450 2300 2    50   Input ~ 0
+Text GLabel 10450 2300 2    50   Output ~ 0
 vccd1
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JP2
@@ -563,7 +563,7 @@ Wire Wire Line
 	10450 2050 10050 2050
 Wire Wire Line
 	10050 2050 10050 2100
-Text GLabel 10450 2550 2    50   Input ~ 0
+Text GLabel 10450 2550 2    50   Output ~ 0
 vccd2
 Wire Wire Line
 	10300 2300 10300 2550
@@ -611,9 +611,9 @@ Text GLabel 8200 5500 0    50   Input ~ 0
 flash_clk
 Text GLabel 8200 5300 0    50   Input ~ 0
 flash_csb
-Text GLabel 9200 5200 2    50   Input ~ 0
+Text GLabel 9200 5200 2    50   BiDi ~ 0
 flash_io0
-Text GLabel 9200 5300 2    50   Input ~ 0
+Text GLabel 9200 5300 2    50   BiDi ~ 0
 flash_io1
 $Comp
 L power:GND #PWR06
@@ -726,11 +726,11 @@ Wire Wire Line
 	5000 750  5100 750 
 Wire Wire Line
 	5100 750  5100 900 
-Text GLabel 6050 1300 2    50   Input ~ 0
+Text GLabel 6050 1300 2    50   Output ~ 0
 clock
 Wire Wire Line
 	5400 1300 6050 1300
-Text GLabel 1150 3250 0    50   Input ~ 0
+Text GLabel 1150 3250 0    50   Output ~ 0
 ext_vddio
 Wire Wire Line
 	800  5850 800  5750
@@ -747,99 +747,99 @@ F 3 "" H 800 5850 50  0001 C CNN
 	1    800  5850
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 3350 0    50   Input ~ 0
+Text GLabel 1150 3350 0    50   Output ~ 0
 ext_1v8
-Text GLabel 1150 3450 0    50   Input ~ 0
+Text GLabel 1150 3450 0    50   Output ~ 0
 ext_3v3
-Text GLabel 1900 5650 2    50   Input ~ 0
+Text GLabel 1900 5650 2    50   BiDi ~ 0
 mprj_io[20]
-Text GLabel 1900 5750 2    50   Input ~ 0
+Text GLabel 1900 5750 2    50   BiDi ~ 0
 mprj_io[19]
-Text GLabel 1900 5550 2    50   Input ~ 0
+Text GLabel 1900 5550 2    50   BiDi ~ 0
 mprj_io[21]
-Text GLabel 1900 5450 2    50   Input ~ 0
+Text GLabel 1900 5450 2    50   BiDi ~ 0
 mprj_io[22]
-Text GLabel 1900 5350 2    50   Input ~ 0
+Text GLabel 1900 5350 2    50   BiDi ~ 0
 mprj_io[23]
-Text GLabel 1900 5150 2    50   Input ~ 0
+Text GLabel 1900 5150 2    50   BiDi ~ 0
 mprj_io[25]
-Text GLabel 1900 5050 2    50   Input ~ 0
+Text GLabel 1900 5050 2    50   BiDi ~ 0
 mprj_io[26]
-Text GLabel 1900 4950 2    50   Input ~ 0
+Text GLabel 1900 4950 2    50   BiDi ~ 0
 mprj_io[27]
-Text GLabel 1900 4850 2    50   Input ~ 0
+Text GLabel 1900 4850 2    50   BiDi ~ 0
 mprj_io[28]
-Text GLabel 1900 4750 2    50   Input ~ 0
+Text GLabel 1900 4750 2    50   BiDi ~ 0
 mprj_io[29]
-Text GLabel 1900 4650 2    50   Input ~ 0
+Text GLabel 1900 4650 2    50   BiDi ~ 0
 mprj_io[30]
-Text GLabel 1900 4550 2    50   Input ~ 0
+Text GLabel 1900 4550 2    50   BiDi ~ 0
 mprj_io[31]
-Text GLabel 1900 4450 2    50   Input ~ 0
+Text GLabel 1900 4450 2    50   BiDi ~ 0
 mprj_io[32]
-Text GLabel 1900 4250 2    50   Input ~ 0
+Text GLabel 1900 4250 2    50   BiDi ~ 0
 mprj_io[34]
-Text GLabel 1900 4150 2    50   Input ~ 0
+Text GLabel 1900 4150 2    50   BiDi ~ 0
 mprj_io[35]
-Text GLabel 1900 3950 2    50   Input ~ 0
+Text GLabel 1900 3950 2    50   BiDi ~ 0
 mprj_io[37]
-Text GLabel 1900 4050 2    50   Input ~ 0
+Text GLabel 1900 4050 2    50   BiDi ~ 0
 mprj_io[36]
-Text GLabel 1900 4350 2    50   Input ~ 0
+Text GLabel 1900 4350 2    50   BiDi ~ 0
 mprj_io[33]
-Text GLabel 1150 3650 0    50   Input ~ 0
+Text GLabel 1150 3650 0    50   Output ~ 0
 resetb
 Text GLabel 1150 3750 0    50   Input ~ 0
 clock
 Text GLabel 1900 3750 2    50   Input ~ 0
 flash_csb
-Text GLabel 1150 3850 0    50   Input ~ 0
+Text GLabel 1150 3850 0    50   BiDi ~ 0
 mprj_io[0]
-Text GLabel 1900 3650 2    50   Input ~ 0
+Text GLabel 1900 3650 2    50   BiDi ~ 0
 flash_io0
-Text GLabel 1900 3550 2    50   Input ~ 0
+Text GLabel 1900 3550 2    50   BiDi ~ 0
 flash_io1
-Text GLabel 1150 3950 0    50   Input ~ 0
+Text GLabel 1150 3950 0    50   BiDi ~ 0
 mprj_io[1]
 Text GLabel 1900 3450 2    50   Input ~ 0
 flash_clk
-Text GLabel 1150 5650 0    50   Input ~ 0
+Text GLabel 1150 5650 0    50   BiDi ~ 0
 mprj_io[18]
-Text GLabel 1150 5550 0    50   Input ~ 0
+Text GLabel 1150 5550 0    50   BiDi ~ 0
 mprj_io[17]
-Text GLabel 1150 5450 0    50   Input ~ 0
+Text GLabel 1150 5450 0    50   BiDi ~ 0
 mprj_io[16]
-Text GLabel 1150 5250 0    50   Input ~ 0
+Text GLabel 1150 5250 0    50   BiDi ~ 0
 mprj_io[14]
-Text GLabel 1150 5350 0    50   Input ~ 0
+Text GLabel 1150 5350 0    50   BiDi ~ 0
 mprj_io[15]
-Text GLabel 1150 5150 0    50   Input ~ 0
+Text GLabel 1150 5150 0    50   BiDi ~ 0
 mprj_io[13]
-Text GLabel 1150 4950 0    50   Input ~ 0
+Text GLabel 1150 4950 0    50   BiDi ~ 0
 mprj_io[11]
-Text GLabel 1150 5050 0    50   Input ~ 0
+Text GLabel 1150 5050 0    50   BiDi ~ 0
 mprj_io[12]
-Text GLabel 1150 4850 0    50   Input ~ 0
+Text GLabel 1150 4850 0    50   BiDi ~ 0
 mprj_io[10]
-Text GLabel 1150 4750 0    50   Input ~ 0
+Text GLabel 1150 4750 0    50   BiDi ~ 0
 mprj_io[9]
-Text GLabel 1150 4650 0    50   Input ~ 0
+Text GLabel 1150 4650 0    50   BiDi ~ 0
 mprj_io[8]
-Text GLabel 1150 4550 0    50   Input ~ 0
+Text GLabel 1150 4550 0    50   BiDi ~ 0
 mprj_io[7]
-Text GLabel 1150 4450 0    50   Input ~ 0
+Text GLabel 1150 4450 0    50   BiDi ~ 0
 mprj_io[6]
-Text GLabel 1150 4350 0    50   Input ~ 0
+Text GLabel 1150 4350 0    50   BiDi ~ 0
 mprj_io[5]
-Text GLabel 1150 4250 0    50   Input ~ 0
+Text GLabel 1150 4250 0    50   BiDi ~ 0
 mprj_io[4]
-Text GLabel 1150 4150 0    50   Input ~ 0
+Text GLabel 1150 4150 0    50   BiDi ~ 0
 mprj_io[3]
-Text GLabel 1150 4050 0    50   Input ~ 0
+Text GLabel 1150 4050 0    50   BiDi ~ 0
 mprj_io[2]
 Text GLabel 1150 3550 0    50   Input ~ 0
 gpio
-Text GLabel 1900 5250 2    50   Input ~ 0
+Text GLabel 1900 5250 2    50   BiDi ~ 0
 mprj_io[24]
 Wire Wire Line
 	1900 3850 2350 3850
