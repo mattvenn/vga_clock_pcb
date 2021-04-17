@@ -1,11 +1,11 @@
-A carrier for the Efabless Caravel WLCSP SoC used by the GoogleSkywater 130nm shuttle program.
-==============================================================================================
+A carrier PCB for the Efabless Caravel WLCSP SoC used by the GoogleSkywater 130nm ASIC shuttle program.
+=======================================================================================================
 
 Based on https://raw.githubusercontent.com/efabless/caravel/release/doc/caravel_datasheet.pdf
 
-Features:
+This PCB features:
 
- * Pads for mounting Caravel
+ * Pads for mounting Caravel ASIC
  * Decoupling
  * Voltage regulators for management area
  * Voltage regulators for user area
