@@ -64,6 +64,10 @@ See the design repository here: https://github.com/mattvenn/vga-clock/tree/db029
         .rrggbb(proj2_io_out[18:13])
         );
 
+* rrggbb is mapped to R1, R2, G1, G2, B1, B2
+* 500R used for R1, G1, B1
+* 1k used for R2, G2, B2
+
 ## Power
 
 * Powergrid for the user project area has 4 buses. From outside to inside:  VSSA2, VDDA2, VSSA1, VDDA1, VSSD2, VCCD2, VSSD1, VCCD1.
@@ -85,6 +89,10 @@ See the design repository here: https://github.com/mattvenn/vga-clock/tree/db029
 # Questions
 
 * What FLASH part has been tested to work? Jeff to feedback on part used in Ravena
+
+# TODO
+
+* check availability of regulators. not available!
 
 # Resources
 
