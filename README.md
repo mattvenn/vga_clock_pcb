@@ -85,3 +85,13 @@ See the design repository here: https://github.com/mattvenn/vga-clock/tree/db029
 
 * Based on https://github.com/samlittlewood/caravel_carrier
 * Based on https://raw.githubusercontent.com/efabless/caravel/release/doc/caravel_datasheet.pdf
+
+## License
+
+* The PCB is licensed under the [MIT License](LICENSE)
+* The ASIC is licensed under the [Apache2 License](https://github.com/mattvenn/vga-clock/blob/master/LICENSE-2.0.txt)
+* The documentation is licensed under the [CC0 License](CC0_license)
+
+# Open Source Hardware
+
+This board (will be) is an OSHWA approved design: [ES000XXX](https://certification.oshwa.org/es000XXX.html)

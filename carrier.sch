@@ -568,98 +568,6 @@ Text GLabel 9900 2300 0    50   Input ~ 0
 vccd
 Text Notes 9950 2500 0    50   ~ 0
 check this
-Text Label 9850 3350 2    50   ~ 0
-red
-$Comp
-L Connector:DB15_Female_HighDensity J2
-U 1 1 60DF5BD9
-P 10150 3750
-F 0 "J2" H 10150 4617 50  0000 C CNN
-F 1 "DB15_Female_HighDensity" H 10150 4526 50  0000 C CNN
-F 2 "carrier:db15" H 9200 4150 50  0001 C CNN
-F 3 " ~" H 9200 4150 50  0001 C CNN
-F 4 "L77HDE15SD1CH4F" H 10150 3750 50  0001 C CNN "Part"
-	1    10150 3750
-	1    0    0    -1  
-$EndComp
-Text Label 9850 3550 2    50   ~ 0
-green
-Text Label 9850 3750 2    50   ~ 0
-blue
-Text Label 10450 3750 0    50   ~ 0
-hsync
-Text Label 10450 3950 0    50   ~ 0
-vsync
-NoConn ~ 10450 4150
-NoConn ~ 10450 3550
-NoConn ~ 10450 3350
-NoConn ~ 9850 3850
-NoConn ~ 9850 3950
-$Comp
-L power:GND #PWR04
-U 1 1 60E093DB
-P 9550 3250
-F 0 "#PWR04" H 9550 3000 50  0001 C CNN
-F 1 "GND" H 9555 3077 50  0000 C CNN
-F 2 "" H 9550 3250 50  0001 C CNN
-F 3 "" H 9550 3250 50  0001 C CNN
-	1    9550 3250
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 60E09A4F
-P 9550 3450
-F 0 "#PWR05" H 9550 3200 50  0001 C CNN
-F 1 "GND" H 9555 3277 50  0000 C CNN
-F 2 "" H 9550 3450 50  0001 C CNN
-F 3 "" H 9550 3450 50  0001 C CNN
-	1    9550 3450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR07
-U 1 1 60E09F84
-P 9550 3650
-F 0 "#PWR07" H 9550 3400 50  0001 C CNN
-F 1 "GND" H 9555 3477 50  0000 C CNN
-F 2 "" H 9550 3650 50  0001 C CNN
-F 3 "" H 9550 3650 50  0001 C CNN
-	1    9550 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 60E0A29C
-P 9550 4050
-F 0 "#PWR08" H 9550 3800 50  0001 C CNN
-F 1 "GND" H 9555 3877 50  0000 C CNN
-F 2 "" H 9550 4050 50  0001 C CNN
-F 3 "" H 9550 4050 50  0001 C CNN
-	1    9550 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 60E0A88B
-P 9550 4150
-F 0 "#PWR09" H 9550 3900 50  0001 C CNN
-F 1 "GND" H 9555 3977 50  0000 C CNN
-F 2 "" H 9550 4150 50  0001 C CNN
-F 3 "" H 9550 4150 50  0001 C CNN
-	1    9550 4150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9550 4050 9850 4050
-Wire Wire Line
-	9550 4150 9850 4150
-Wire Wire Line
-	9550 3250 9850 3250
-Wire Wire Line
-	9550 3450 9850 3450
-Wire Wire Line
-	9550 3650 9850 3650
 $Comp
 L Device:R R1
 U 1 1 60E1F73D
@@ -2437,7 +2345,7 @@ U 1 1 60EEA04C
 P 1200 1300
 F 0 "J3" H 1257 1767 50  0000 C CNN
 F 1 "USB_B_Micro" H 1257 1676 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-AB_Molex_47590-0001" H 1350 1250 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 1350 1250 50  0001 C CNN
 F 3 "~" H 1350 1250 50  0001 C CNN
 F 4 "105017-0001" H 1200 1300 50  0001 C CNN "Part"
 	1    1200 1300
@@ -2494,14 +2402,6 @@ NoConn ~ 1500 6350
 NoConn ~ 1500 6450
 NoConn ~ 1500 6550
 NoConn ~ 1500 6650
-Text GLabel 7500 5500 0    50   BiDi ~ 0
-mprj_io[11]
-Text GLabel 7500 5650 0    50   BiDi ~ 0
-mprj_io[12]
-Text Label 7500 5500 0    50   ~ 0
-hsync
-Text Label 7500 5650 0    50   ~ 0
-vsync
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 60EF0C95
@@ -2532,4 +2432,114 @@ Wire Wire Line
 	8300 1900 8600 1900
 Wire Wire Line
 	9700 1050 10100 1050
+Wire Wire Line
+	10500 3950 10650 3950
+Wire Wire Line
+	10500 3750 10650 3750
+Wire Wire Line
+	9550 3650 9900 3650
+Wire Wire Line
+	9550 3450 9900 3450
+Wire Wire Line
+	9550 3250 9900 3250
+Wire Wire Line
+	9550 4150 9900 4150
+Wire Wire Line
+	9550 4050 9900 4050
+$Comp
+L power:GND #PWR09
+U 1 1 60E0A88B
+P 9550 4150
+F 0 "#PWR09" H 9550 3900 50  0001 C CNN
+F 1 "GND" H 9555 3977 50  0000 C CNN
+F 2 "" H 9550 4150 50  0001 C CNN
+F 3 "" H 9550 4150 50  0001 C CNN
+	1    9550 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 60E0A29C
+P 9550 4050
+F 0 "#PWR08" H 9550 3800 50  0001 C CNN
+F 1 "GND" H 9555 3877 50  0000 C CNN
+F 2 "" H 9550 4050 50  0001 C CNN
+F 3 "" H 9550 4050 50  0001 C CNN
+	1    9550 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 60E09F84
+P 9550 3650
+F 0 "#PWR07" H 9550 3400 50  0001 C CNN
+F 1 "GND" H 9555 3477 50  0000 C CNN
+F 2 "" H 9550 3650 50  0001 C CNN
+F 3 "" H 9550 3650 50  0001 C CNN
+	1    9550 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 60E09A4F
+P 9550 3450
+F 0 "#PWR05" H 9550 3200 50  0001 C CNN
+F 1 "GND" H 9555 3277 50  0000 C CNN
+F 2 "" H 9550 3450 50  0001 C CNN
+F 3 "" H 9550 3450 50  0001 C CNN
+	1    9550 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 60E093DB
+P 9550 3250
+F 0 "#PWR04" H 9550 3000 50  0001 C CNN
+F 1 "GND" H 9555 3077 50  0000 C CNN
+F 2 "" H 9550 3250 50  0001 C CNN
+F 3 "" H 9550 3250 50  0001 C CNN
+	1    9550 3250
+	0    1    1    0   
+$EndComp
+NoConn ~ 9900 3950
+NoConn ~ 9900 3850
+NoConn ~ 10500 3350
+NoConn ~ 10500 3550
+NoConn ~ 10500 4150
+Text Label 9850 3750 2    50   ~ 0
+blue
+Text Label 9850 3550 2    50   ~ 0
+green
+$Comp
+L Connector:DB15_Female_HighDensity J2
+U 1 1 60DF5BD9
+P 10200 3750
+F 0 "J2" H 10200 4617 50  0000 C CNN
+F 1 "DB15_Female_HighDensity" H 10200 4526 50  0000 C CNN
+F 2 "carrier:db15" H 9250 4150 50  0001 C CNN
+F 3 " ~" H 9250 4150 50  0001 C CNN
+F 4 "L77HDE15SD1CH4F" H 10200 3750 50  0001 C CNN "Part"
+	1    10200 3750
+	1    0    0    -1  
+$EndComp
+Text Label 9850 3350 2    50   ~ 0
+red
+Text GLabel 7500 5650 0    50   BiDi ~ 0
+mprj_io[12]
+Text GLabel 7500 5500 0    50   BiDi ~ 0
+mprj_io[11]
+Text Label 7500 5650 0    50   ~ 0
+vsync
+Text Label 7500 5500 0    50   ~ 0
+hsync
+Text Label 10650 3950 0    50   ~ 0
+vsync
+Text Label 10650 3750 0    50   ~ 0
+hsync
+Wire Wire Line
+	9850 3350 9900 3350
+Wire Wire Line
+	9850 3550 9900 3550
+Wire Wire Line
+	9850 3750 9900 3750
 $EndSCHEMATC
