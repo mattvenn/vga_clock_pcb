@@ -64,17 +64,16 @@ See the design repository here: https://github.com/mattvenn/vga-clock/tree/db029
 ## Power
 
 * Powergrid for the user project area has 4 buses. From outside to inside:  VSSA2, VDDA2, VSSA1, VDDA1, VSSD2, VCCD2, VSSD1, VCCD1.
+    * VSSA2 user area 2 ground
+    * VDDA2 3.3V user area 2 psu
+    * VSSA1 user area 1 ground
+    * VDDA1 3.3V user area 1 psu
+    * VSSD2 user area 2 digital ground
+    * VCCD2 1.8V user area 2 digital psu
+    * VSSD1 user area 1 digital ground
+    * VCCD1 1.8V user area 1 digital psu
 
-    VSSA2 user area 2 ground
-    VDDA2 3.3V user area 2 psu
-    VSSA1 user area 1 ground
-    VDDA1 3.3V user area 1 psu
-    VSSD2 user area 2 digital ground
-    VCCD2 1.8V user area 2 digital psu
-    VSSD1 user area 1 digital ground
-    VCCD1 1.8V user area 1 digital psu
-
-* Power is provided to the module by VCCD1 and VSSD1.
+* Power is provided to the module only by VCCD1 and VSSD1.
 
 # Questions
 
