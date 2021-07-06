@@ -62,44 +62,6 @@ Text GLabel 1500 4650 0    50   BiDi ~ 0
 mprj_io[17]
 Text GLabel 1500 4750 0    50   BiDi ~ 0
 mprj_io[18]
-Text GLabel 1500 4850 0    50   BiDi ~ 0
-mprj_io[19]
-Text GLabel 1500 4950 0    50   BiDi ~ 0
-mprj_io[20]
-Text GLabel 1500 5050 0    50   BiDi ~ 0
-mprj_io[21]
-Text GLabel 1500 5150 0    50   BiDi ~ 0
-mprj_io[22]
-Text GLabel 1500 5250 0    50   BiDi ~ 0
-mprj_io[23]
-Text GLabel 1500 5350 0    50   BiDi ~ 0
-mprj_io[24]
-Text GLabel 1500 5450 0    50   BiDi ~ 0
-mprj_io[25]
-Text GLabel 1500 5550 0    50   BiDi ~ 0
-mprj_io[26]
-Text GLabel 1500 5650 0    50   BiDi ~ 0
-mprj_io[27]
-Text GLabel 1500 5750 0    50   BiDi ~ 0
-mprj_io[28]
-Text GLabel 1500 5850 0    50   BiDi ~ 0
-mprj_io[29]
-Text GLabel 1500 5950 0    50   BiDi ~ 0
-mprj_io[30]
-Text GLabel 1500 6050 0    50   BiDi ~ 0
-mprj_io[31]
-Text GLabel 1500 6150 0    50   BiDi ~ 0
-mprj_io[32]
-Text GLabel 1500 6250 0    50   BiDi ~ 0
-mprj_io[33]
-Text GLabel 1500 6350 0    50   BiDi ~ 0
-mprj_io[34]
-Text GLabel 1500 6450 0    50   BiDi ~ 0
-mprj_io[35]
-Text GLabel 1500 6550 0    50   BiDi ~ 0
-mprj_io[36]
-Text GLabel 1500 6650 0    50   BiDi ~ 0
-mprj_io[37]
 $Comp
 L power:GND #PWR01
 U 1 1 5FBC2762
@@ -156,8 +118,6 @@ Text GLabel 4100 4050 2    50   Input ~ 0
 resetb
 Text GLabel 4100 4150 2    50   Input ~ 0
 clock
-Text GLabel 4100 4250 2    50   Output ~ 0
-gpio
 Text GLabel 4100 5300 2    50   Input ~ 0
 flash_clk
 Text GLabel 4100 5400 2    50   Input ~ 0
@@ -172,14 +132,8 @@ Text GLabel 2950 2450 1    50   Input ~ 0
 vdda
 Text GLabel 3050 2450 1    50   Input ~ 0
 vccd
-Text GLabel 3250 2450 1    50   Input ~ 0
-vdda1
 Text GLabel 3350 2450 1    50   Input ~ 0
 vccd1
-Text GLabel 3550 2450 1    50   Input ~ 0
-vdda2
-Text GLabel 3650 2450 1    50   Input ~ 0
-vccd2
 $Comp
 L power:GND #PWR03
 U 1 1 5FBCAAC5
@@ -295,7 +249,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 1400 8600 1050
 Wire Wire Line
-	8600 1050 6750 1050
+	8600 1050 7800 1050
 Connection ~ 8600 1400
 Connection ~ 6750 1050
 Wire Wire Line
@@ -357,8 +311,6 @@ Wire Wire Line
 	10350 1000 10100 1000
 Wire Wire Line
 	10100 1000 10100 1050
-Wire Wire Line
-	9700 1050 10100 1050
 Text GLabel 9250 5600 0    50   Input ~ 0
 flash_clk
 Text GLabel 9250 5400 0    50   Input ~ 0
@@ -472,50 +424,6 @@ clock
 Wire Wire Line
 	5400 1300 6050 1300
 $Comp
-L Device:C_Small C12
-U 1 1 5FE1829F
-P 12200 3100
-F 0 "C12" H 12292 3146 50  0000 L CNN
-F 1 "22n" H 12292 3055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 12200 3100 50  0001 C CNN
-F 3 "~" H 12200 3100 50  0001 C CNN
-	1    12200 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C13
-U 1 1 5FE19975
-P 12200 2750
-F 0 "C13" H 12292 2796 50  0000 L CNN
-F 1 "22n" H 12292 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 12200 2750 50  0001 C CNN
-F 3 "~" H 12200 2750 50  0001 C CNN
-	1    12200 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C14
-U 1 1 5FE19EF6
-P 12200 2400
-F 0 "C14" H 12292 2446 50  0000 L CNN
-F 1 "22n" H 12292 2355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 12200 2400 50  0001 C CNN
-F 3 "~" H 12200 2400 50  0001 C CNN
-	1    12200 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C15
-U 1 1 5FE1A643
-P 12200 2000
-F 0 "C15" H 12292 2046 50  0000 L CNN
-F 1 "22n" H 12292 1955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 12200 2000 50  0001 C CNN
-F 3 "~" H 12200 2000 50  0001 C CNN
-	1    12200 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C_Small C11
 U 1 1 5FE1ABC4
 P 5750 6250
@@ -546,50 +454,6 @@ F 1 "22n" H 5842 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5750 6950 50  0001 C CNN
 F 3 "~" H 5750 6950 50  0001 C CNN
 	1    5750 6950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5FE1B9C3
-P 12300 2000
-F 0 "#PWR0105" H 12300 1750 50  0001 C CNN
-F 1 "GND" H 12305 1827 50  0000 C CNN
-F 2 "" H 12300 2000 50  0001 C CNN
-F 3 "" H 12300 2000 50  0001 C CNN
-	1    12300 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5FE1C0FC
-P 12300 2400
-F 0 "#PWR0106" H 12300 2150 50  0001 C CNN
-F 1 "GND" H 12305 2227 50  0000 C CNN
-F 2 "" H 12300 2400 50  0001 C CNN
-F 3 "" H 12300 2400 50  0001 C CNN
-	1    12300 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 5FE1C505
-P 12300 2750
-F 0 "#PWR0107" H 12300 2500 50  0001 C CNN
-F 1 "GND" H 12305 2577 50  0000 C CNN
-F 2 "" H 12300 2750 50  0001 C CNN
-F 3 "" H 12300 2750 50  0001 C CNN
-	1    12300 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5FE1C8A8
-P 12300 3100
-F 0 "#PWR0108" H 12300 2850 50  0001 C CNN
-F 1 "GND" H 12305 2927 50  0000 C CNN
-F 2 "" H 12300 3100 50  0001 C CNN
-F 3 "" H 12300 3100 50  0001 C CNN
-	1    12300 3100
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -631,14 +495,6 @@ Text GLabel 5650 6600 0    50   Input ~ 0
 vdda
 Text GLabel 5650 6250 0    50   Input ~ 0
 vccd
-Text GLabel 12100 3100 0    50   Input ~ 0
-vdda1
-Text GLabel 12100 2750 0    50   Input ~ 0
-vccd1
-Text GLabel 12100 2400 0    50   Input ~ 0
-vdda2
-Text GLabel 12100 2000 0    50   Input ~ 0
-vccd2
 $Comp
 L Oscillator:SG-5032CAN X1
 U 1 1 5FFF4CDC
@@ -705,37 +561,12 @@ $EndComp
 Text GLabel 5000 750  0    50   Input ~ 0
 vdda
 Wire Wire Line
-	7850 1900 8600 1900
-Text GLabel 10300 2100 2    50   Input ~ 0
-vdda1
-Text GLabel 10300 2200 2    50   Input ~ 0
+	7850 1900 8300 1900
+Text GLabel 10200 2300 2    50   Input ~ 0
 vccd1
-Text GLabel 10300 2400 2    50   Input ~ 0
-vdda2
-Text GLabel 10300 2500 2    50   Input ~ 0
-vccd2
-Text GLabel 10000 2500 0    50   Input ~ 0
+Text GLabel 9900 2300 0    50   Input ~ 0
 vccd
-Wire Wire Line
-	10000 2500 10100 2500
-Wire Wire Line
-	10300 2100 10100 2100
-Wire Wire Line
-	10100 2100 10100 2200
-Connection ~ 10100 2500
-Wire Wire Line
-	10100 2500 10300 2500
-Wire Wire Line
-	10300 2200 10100 2200
-Connection ~ 10100 2200
-Wire Wire Line
-	10100 2200 10100 2400
-Wire Wire Line
-	10300 2400 10100 2400
-Connection ~ 10100 2400
-Wire Wire Line
-	10100 2400 10100 2500
-Text Notes 10050 2700 0    50   ~ 0
+Text Notes 9950 2500 0    50   ~ 0
 check this
 Text Label 9850 3350 2    50   ~ 0
 red
@@ -2638,4 +2469,67 @@ F 3 "" H 1500 1100 50  0001 C CNN
 	1    1500 1100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	9900 2300 10200 2300
+NoConn ~ 3250 2450
+NoConn ~ 3550 2450
+NoConn ~ 3650 2450
+NoConn ~ 4100 4250
+NoConn ~ 1500 4850
+NoConn ~ 1500 4950
+NoConn ~ 1500 5050
+NoConn ~ 1500 5150
+NoConn ~ 1500 5250
+NoConn ~ 1500 5350
+NoConn ~ 1500 5450
+NoConn ~ 1500 5550
+NoConn ~ 1500 5650
+NoConn ~ 1500 5750
+NoConn ~ 1500 5850
+NoConn ~ 1500 5950
+NoConn ~ 1500 6050
+NoConn ~ 1500 6150
+NoConn ~ 1500 6250
+NoConn ~ 1500 6350
+NoConn ~ 1500 6450
+NoConn ~ 1500 6550
+NoConn ~ 1500 6650
+Text GLabel 7500 5500 0    50   BiDi ~ 0
+mprj_io[11]
+Text GLabel 7500 5650 0    50   BiDi ~ 0
+mprj_io[12]
+Text Label 7500 5500 0    50   ~ 0
+hsync
+Text Label 7500 5650 0    50   ~ 0
+vsync
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60EF0C95
+P 7800 1050
+F 0 "#FLG0101" H 7800 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 7800 1223 50  0000 C CNN
+F 2 "" H 7800 1050 50  0001 C CNN
+F 3 "~" H 7800 1050 50  0001 C CNN
+	1    7800 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 7800 1050
+Wire Wire Line
+	7800 1050 6750 1050
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60EF15E9
+P 8300 1900
+F 0 "#FLG0102" H 8300 1975 50  0001 C CNN
+F 1 "PWR_FLAG" H 8300 2073 50  0000 C CNN
+F 2 "" H 8300 1900 50  0001 C CNN
+F 3 "~" H 8300 1900 50  0001 C CNN
+	1    8300 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 1900
+Wire Wire Line
+	8300 1900 8600 1900
+Wire Wire Line
+	9700 1050 10100 1050
 $EndSCHEMATC
