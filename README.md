@@ -1,18 +1,18 @@
 Matt Venn's VGA Clock on MPW1
 =============================
 
-Based on https://github.com/samlittlewood/caravel_carrier
+PCB for my [VGA ASIC Clock](https://www.zerotoasiccourse.com/post/vga_clock/)
 
-This PCB features:
+This PCB provides all the necessary components to make a functional clock:
 
- * Pads for mounting Caravel ASIC
+ * Pads for mounting the ASIC
  * Decoupling
- * Voltage regulators for core and IO
+ * Voltage regulators for core (1.8) and IO (3.3)
  * Crystal oscillator
- * SOIC-8 footprint for dual SPI flash
+ * SOIC-8 footprint for dual SPI flash for the configuration firmware
  * 2x6 1.27mm header with housekeeping SPI, UART and 5V - the minimum connection needed for power and debug
 
-![Schematic]()
+![Schematic](rev0.1/carrier.pdf)
 
 # Setup
 
@@ -20,6 +20,8 @@ This PCB features:
 
 Needs to active project 2. See https://github.com/mattvenn/caravel-mph/blob/release/verilog/dv/caravel/user_proj_example/vga-clock/vga_clock.c for the simulation test.
 Will need PLL setup to work on the ASIC.
+
+For flashing, see https://github.com/efabless/ravenna/blob/master/firmware/blink/Makefile as a starting point. ravenna_hkspi.py may need some tweaks to work with Caravel.
 
 ## PLL config
 
@@ -59,12 +61,28 @@ See the design repository here: https://github.com/mattvenn/vga-clock/tree/db029
         .rrggbb(proj2_io_out[18:13])
         );
 
+## Power
+
+* Powergrid for the user project area has 4 buses. From outside to inside:  VSSA2, VDDA2, VSSA1, VDDA1, VSSD2, VCCD2, VSSD1, VCCD1.
+
+    VSSA2 user area 2 ground
+    VDDA2 3.3V user area 2 psu
+    VSSA1 user area 1 ground
+    VDDA1 3.3V user area 1 psu
+    VSSD2 user area 2 digital ground
+    VCCD2 1.8V user area 2 digital psu
+    VSSD1 user area 1 digital ground
+    VCCD1 1.8V user area 1 digital psu
+
+* Power is provided to the module by VCCD1 and VSSD1.
+
 # Questions
 
-* Can I connect all 4 supply voltages for the user area and supply them with the same 1.8v that the core gets?
+* If I am only using VCCD1 and VSSD1, can connect these to the core supply and leave all others disconnected?
 * What FLASH part has been tested to work?
 * Buttons should be able to connect direct to VDDIO (no resistor needed)?
 
 # Resources
 
-Based on https://raw.githubusercontent.com/efabless/caravel/release/doc/caravel_datasheet.pdf
+* Based on https://github.com/samlittlewood/caravel_carrier
+* Based on https://raw.githubusercontent.com/efabless/caravel/release/doc/caravel_datasheet.pdf
