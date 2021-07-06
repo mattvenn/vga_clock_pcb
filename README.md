@@ -14,6 +14,9 @@ This PCB provides all the necessary components to make a functional clock:
 
 ![Schematic](rev0.1/carrier.pdf)
 
+![front](docs/front.png)
+![back](docs/back.png)
+
 # Setup
 
 ## Firmware
