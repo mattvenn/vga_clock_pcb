@@ -76,13 +76,15 @@ See the design repository here: https://github.com/mattvenn/vga-clock/tree/db029
     * VSSD1 user area 1 digital ground
     * VCCD1 1.8V user area 1 digital psu
 
+* Tim Edwards suggests:
+    * keeping VCCD2 and VCCD1, VSSD2 and VSSD1 tied together just to make sure there are no floating power supplies.  
+    * connect VDDA1 and VDDA2 to VDDIO, and VSSA1 and VSSA2 to VSSIO to make sure they're not floating.  
+
 * Power is provided to the module only by VCCD1 and VSSD1.
 
 # Questions
 
-* If I am only using VCCD1 and VSSD1, can connect these to the core supply and leave all others disconnected?
-* What FLASH part has been tested to work?
-* Buttons should be able to connect direct to VDDIO (no resistor needed)?
+* What FLASH part has been tested to work? Jeff to feedback on part used in Ravena
 
 # Resources
 
