@@ -90,9 +90,18 @@ See the design repository here: https://github.com/mattvenn/vga-clock/tree/db029
 
 * What FLASH part has been tested to work? Jeff to feedback on part used in Ravena
 
-# TODO
+# BOM
 
-* check availability of regulators. not available!
+All available from digikey as of 13/7/21
+
+* regulators
+    * 1.8v MCP1824T-1802E/OT
+    * 3.3v MIC5504-3.3YM5-TR
+* flash: W25Q32JVSSIQ-TR
+* oscillator: ECS-5032MV-100-BN-TR 
+* VGA connector: L77HDE15SD1CH4F
+* USB connector: 1050170001
+* buttons: PTS636 SM25J SMTR LFS
 
 # Resources
 
