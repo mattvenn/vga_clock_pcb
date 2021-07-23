@@ -107,6 +107,7 @@ All available from digikey as of 13/7/21
 
 * Based on https://github.com/samlittlewood/caravel_carrier
 * Based on https://raw.githubusercontent.com/efabless/caravel/release/doc/caravel_datasheet.pdf
+* Logo created at: http://oshwmark.capablerobot.com/
 
 ## License
 
@@ -116,4 +117,4 @@ All available from digikey as of 13/7/21
 
 # Open Source Hardware
 
-This board (will be) is an OSHWA approved design: [ES000XXX](https://certification.oshwa.org/es000XXX.html)
+This board is an OSHWA approved design: [ES000023](https://certification.oshwa.org/es000023.html)
