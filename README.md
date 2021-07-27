@@ -5,6 +5,7 @@ Matt Venn's ASIC VGA Clock
 * The ASIC was part of the Google sponsored MPW1
 * The ASIC is still in fabrication by Skywater, we expect silicon in September 2021.
 * For more details about the implementation, see [VGA ASIC Clock](https://www.zerotoasiccourse.com/post/vga_clock/). 
+* RTL: https://github.com/mattvenn/vga-clock
 * Application details: https://efabless.com/projects/14
 
 # PCB
