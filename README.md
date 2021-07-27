@@ -1,7 +1,7 @@
 Matt Venn's ASIC VGA Clock
 ==========================
 
-* World's first certified open source hardware down to the GDS?
+* World's first [certified open source hardware](https://certification.oshwa.org/es000023.html) down to the GDS?
 * The ASIC was part of the Google sponsored MPW1
 * The ASIC is still in fabrication by Skywater, we expect silicon in September 2021.
 * For more details about the implementation, see [VGA ASIC Clock](https://www.zerotoasiccourse.com/post/vga_clock/). 
