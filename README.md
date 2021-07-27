@@ -11,8 +11,8 @@ This PCB provides all the necessary components to make a functional clock:
  * Crystal oscillator
  * SOIC-8 footprint for dual SPI flash for the configuration firmware
  * 2x6 1.27mm header with housekeeping SPI, UART and 5V - the minimum connection needed for power and debug
+ * [PDF Schematic](rev0.1/carrier.pdf)
 
-![Schematic](rev0.1/carrier.pdf)
 
 ![boards](docs/combined_boards.png)
 
