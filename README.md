@@ -1,7 +1,15 @@
-Matt Venn's VGA Clock on MPW1
-=============================
+Matt Venn's ASIC VGA Clock
+==========================
 
-PCB for my [VGA ASIC Clock](https://www.zerotoasiccourse.com/post/vga_clock/)
+* World's first certified open source hardware down to the GDS?
+* The ASIC was part of the Google sponsored MPW1
+* The ASIC is still in fabrication by Skywater, we expect silicon in September 2021.
+* For more details about the implementation, see [VGA ASIC Clock](https://www.zerotoasiccourse.com/post/vga_clock/). 
+* Application details: https://efabless.com/projects/14
+
+# PCB
+
+![boards](docs/combined_boards.png)
 
 This PCB provides all the necessary components to make a functional clock:
 
@@ -12,9 +20,6 @@ This PCB provides all the necessary components to make a functional clock:
  * SOIC-8 footprint for dual SPI flash for the configuration firmware
  * 2x6 1.27mm header with housekeeping SPI, UART and 5V - the minimum connection needed for power and debug
  * [PDF Schematic](rev0.1/carrier.pdf)
-
-
-![boards](docs/combined_boards.png)
 
 # Setup
 
