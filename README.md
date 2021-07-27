@@ -85,10 +85,6 @@ See the design repository here: https://github.com/mattvenn/vga-clock/tree/db029
 
 * Power is provided to the module only by VCCD1 and VSSD1.
 
-# Questions
-
-* What FLASH part has been tested to work? Jeff to feedback on part used in Ravena
-
 # BOM
 
 All available from digikey as of 13/7/21
@@ -107,6 +103,7 @@ All available from digikey as of 13/7/21
 * Based on https://github.com/samlittlewood/caravel_carrier
 * Based on https://raw.githubusercontent.com/efabless/caravel/release/doc/caravel_datasheet.pdf
 * Logo created at: http://oshwmark.capablerobot.com/
+* PCBs sponsored by https://OSHPark.com
 
 ## License
 
