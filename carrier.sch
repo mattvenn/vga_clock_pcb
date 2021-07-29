@@ -509,9 +509,9 @@ U 1 1 5FFF4CDC
 P 5100 1300
 F 0 "X1" H 5444 1346 50  0000 L CNN
 F 1 "ECS-5032MV-100-BN-TR" H 4650 500 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm" H 5800 950 50  0001 C CNN
+F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm" H 5800 950 50  0001 C CNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en" H 5000 1300 50  0001 C CNN
-F 4 "ECS-5032MV-100-BN-TR" H 5100 1300 50  0001 C CNN "Part"
+F 4 "SIT8008AI-23-33S-9.000000 " H 5100 1300 50  0001 C CNN "Part"
 	1    5100 1300
 	1    0    0    -1  
 $EndComp
@@ -2587,4 +2587,6 @@ Text GLabel 5700 4250 2    50   Input ~ 0
 gpio
 Text Notes 5500 4550 0    50   ~ 0
 2v 20mA
+Text Notes 4600 2000 0    50   ~ 0
+\nSIT8008AI-23-33S-9.000000 
 $EndSCHEMATC

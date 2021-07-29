@@ -33,25 +33,24 @@ For flashing, see https://github.com/efabless/ravenna/blob/master/firmware/blink
 
 ## PLL config
 
-Needs 31.5MHz for VGA signal.
-Input oscillator is 10MHz.
+Needs 31.5MHz for VGA signal. As precise as possible for good timekeeping.
+Input oscillator is 9MHz.
 
 Using https://github.com/kbeckmann/caravel-pll-calculator
 
-    python3 caravel_pll.py  generate --clkin 10 --clkout 31.5 --allow-deviation
-
+    matt-desktop:2003 [main]: ./caravel_pll.py generate --clkout 31.5 --clkin 9
     PLL Parameters:
 
-    clkin:    10.00 MHz
-    clkout:   31.67 MHz
-    clkout90: 31.67 MHz
+    clkin:    9.00 MHz
+    clkout:   31.50 MHz
+    clkout90: 31.50 MHz
 
-    PLL Feedback Divider: 19
-    PLL Output Divider 1: 6
-    PLL Output Divider 2: 6
+    PLL Feedback Divider: 14
+    PLL Output Divider 1: 4
+    PLL Output Divider 2: 4
 
-    Register 0x11: 0x36
-    Register 0x12: 0x13
+    Register 0x11: 0x24
+    Register 0x12: 0x0e
 
 ## Pinning
 
@@ -99,7 +98,7 @@ All available from digikey as of 13/7/21
     * 1.8v MCP1824T-1802E/OT
     * 3.3v MIC5504-3.3YM5-TR
 * flash: W25Q32JVSSIQ-TR
-* oscillator: ECS-5032MV-100-BN-TR 
+* oscillator: SIT8008AI-23-33S-9.000000 
 * VGA connector: L77HDE15SD1CH4F
 * USB connector: 1050170001
 * buttons: PTS636 SM25J SMTR LFS
