@@ -25,8 +25,6 @@ F 4 "MIC5504-3.3YM5-TR" H 9150 1500 50  0001 C CNN "Part"
 	1    9150 1500
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 2950 0    50   BiDi ~ 0
-mprj_io[0]
 Text GLabel 1500 3050 0    50   BiDi ~ 0
 mprj_io[1]
 Text GLabel 1500 3150 0    50   BiDi ~ 0
@@ -35,12 +33,6 @@ Text GLabel 1500 3250 0    50   BiDi ~ 0
 mprj_io[3]
 Text GLabel 1500 3350 0    50   BiDi ~ 0
 mprj_io[4]
-Text GLabel 1500 3450 0    50   BiDi ~ 0
-mprj_io[5]
-Text GLabel 1500 3550 0    50   BiDi ~ 0
-mprj_io[6]
-Text GLabel 1500 3650 0    50   BiDi ~ 0
-mprj_io[7]
 Text GLabel 1500 3750 0    50   BiDi ~ 0
 mprj_io[8]
 Text GLabel 1500 3850 0    50   BiDi ~ 0
@@ -336,77 +328,27 @@ F 3 "" H 9750 5900 50  0001 C CNN
 $EndComp
 Text GLabel 10250 4900 2    50   Input ~ 0
 vdda
-Text GLabel 2700 1100 0    50   Input ~ 0
-mprj_io[0]
-Text GLabel 3400 1100 2    50   Input ~ 0
+Text GLabel 3300 1500 2    50   Input ~ 0
 mprj_io[1]
-Text GLabel 2700 1200 0    50   Input ~ 0
+Text GLabel 2700 1500 0    50   Input ~ 0
 mprj_io[2]
-Text GLabel 3400 1200 2    50   Input ~ 0
-mprj_io[3]
-Text GLabel 2700 1300 0    50   Input ~ 0
-mprj_io[4]
-Text GLabel 3400 1300 2    50   Input ~ 0
-mprj_io[5]
 Text GLabel 2700 1400 0    50   Input ~ 0
-mprj_io[6]
-Text GLabel 3400 1400 2    50   Input ~ 0
-mprj_io[7]
-Text GLabel 3400 1500 2    50   Input ~ 0
-resetb
+mprj_io[3]
 $Comp
 L power:GND #PWR0101
 U 1 1 5FCD402D
-P 2700 1650
-F 0 "#PWR0101" H 2700 1400 50  0001 C CNN
-F 1 "GND" H 2705 1477 50  0000 C CNN
-F 2 "" H 2700 1650 50  0001 C CNN
-F 3 "" H 2700 1650 50  0001 C CNN
-	1    2700 1650
+P 3300 1600
+F 0 "#PWR0101" H 3300 1350 50  0001 C CNN
+F 1 "GND" H 3305 1427 50  0000 C CNN
+F 2 "" H 3300 1600 50  0001 C CNN
+F 3 "" H 3300 1600 50  0001 C CNN
+	1    3300 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2800 1500 2700 1500
 Wire Wire Line
-	2700 1500 2700 1650
-$Comp
-L Connector_Generic:Conn_02x06_Odd_Even J1
-U 1 1 5FCD8A9B
-P 3000 1200
-F 0 "J1" H 3050 1617 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 3050 1526 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical_SMD" H 3000 1200 50  0001 C CNN
-F 3 "~" H 3000 1200 50  0001 C CNN
-F 4 " GRPB062VWQS-RC " H 3000 1200 50  0001 C CNN "Part"
-	1    3000 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 1100 2800 1100
-Wire Wire Line
-	2800 1200 2700 1200
-Wire Wire Line
-	2700 1300 2800 1300
-Wire Wire Line
-	2700 1400 2800 1400
-Wire Wire Line
-	3300 1500 3400 1500
-Wire Wire Line
-	3400 1400 3300 1400
-Wire Wire Line
-	3300 1300 3400 1300
-Wire Wire Line
-	3400 1200 3300 1200
-Wire Wire Line
-	3300 1100 3400 1100
-Wire Wire Line
-	3700 900  3700 1000
-Wire Wire Line
-	3700 1000 3300 1000
-Text GLabel 2700 1000 0    50   Input ~ 0
-vddio
-Wire Wire Line
-	2800 1000 2700 1000
+	2700 1600 2800 1600
 $Comp
 L power:GND #PWR0103
 U 1 1 5FD16E8C
@@ -561,12 +503,12 @@ NoConn ~ 10250 5700
 $Comp
 L power:+5V #PWR0112
 U 1 1 602274C8
-P 3700 900
-F 0 "#PWR0112" H 3700 750 50  0001 C CNN
-F 1 "+5V" H 3715 1073 50  0000 C CNN
-F 2 "" H 3700 900 50  0001 C CNN
-F 3 "" H 3700 900 50  0001 C CNN
-	1    3700 900 
+P 3300 1400
+F 0 "#PWR0112" H 3300 1250 50  0001 C CNN
+F 1 "+5V" H 3315 1573 50  0000 C CNN
+F 2 "" H 3300 1400 50  0001 C CNN
+F 3 "" H 3300 1400 50  0001 C CNN
+	1    3300 1400
 	1    0    0    -1  
 $EndComp
 Text GLabel 5000 750  0    50   Input ~ 0
@@ -2589,4 +2531,66 @@ Text Notes 5500 4550 0    50   ~ 0
 2v 20mA
 Text Notes 4600 2000 0    50   ~ 0
 \nSIT8008AI-23-33S-9.000000 
+Text GLabel 2700 1600 0    50   Input ~ 0
+mprj_io[4]
+Wire Wire Line
+	2700 1400 2800 1400
+NoConn ~ 1500 3450
+NoConn ~ 1500 3550
+NoConn ~ 1500 3650
+NoConn ~ 1500 2950
+Text GLabel 5500 4950 2    50   Input ~ 0
+resetb
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61089582
+P 5500 4950
+F 0 "TP1" V 5695 5022 50  0000 C CNN
+F 1 "TestPoint" V 5604 5022 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5700 4950 50  0001 C CNN
+F 3 "~" H 5700 4950 50  0001 C CNN
+	1    5500 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J1
+U 1 1 6108F9A8
+P 3000 1500
+F 0 "J1" H 3050 1817 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 3050 1950 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3000 1500 50  0001 C CNN
+F 3 "~" H 3000 1500 50  0001 C CNN
+	1    3000 1500
+	1    0    0    -1  
+$EndComp
+Text Notes 700  3100 0    50   ~ 0
+sdo
+Text Notes 700  3200 0    50   ~ 0
+sdi
+Text Notes 700  3300 0    50   ~ 0
+csb
+Text Notes 700  3400 0    50   ~ 0
+clk
+Wire Notes Line
+	600  3450 950  3450
+Wire Notes Line
+	950  3450 950  2700
+Wire Notes Line
+	950  2700 1350 2700
+Wire Notes Line
+	1350 2700 1350 2450
+Wire Notes Line
+	1350 2450 600  2450
+Wire Notes Line
+	600  2450 600  3450
+Text Notes 700  2650 0    50   ~ 0
+housekeeping\nSPI
+Text Notes 3800 1550 0    50   ~ 0
+sdo
+Text Notes 2100 1550 0    50   ~ 0
+sdi
+Text Notes 2100 1450 0    50   ~ 0
+csb
+Text Notes 2100 1650 0    50   ~ 0
+clk
 $EndSCHEMATC

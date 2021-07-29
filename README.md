@@ -29,7 +29,13 @@ This PCB provides all the necessary components to make a functional clock:
 Needs to active project 2. See https://github.com/mattvenn/caravel-mph/blob/release/verilog/dv/caravel/user_proj_example/vga-clock/vga_clock.c for the simulation test.
 Will need PLL setup to work on the ASIC.
 
+## Flashing
+
 For flashing, see https://github.com/efabless/ravenna/blob/master/firmware/blink/Makefile as a starting point. ravenna_hkspi.py may need some tweaks to work with Caravel.
+
+The [SPI interface can be used to put the ASIC into 'passthrough' mode](https://caravel-harness.readthedocs.io/en/latest/housekeeping-spi.html#housekeeping-spi-command-words). Then the FLASH can be programmed through this same SPI interface.
+
+See the schematic for the pinout of the SPI interface on the board.
 
 ## PLL config
 
@@ -105,8 +111,8 @@ All available from digikey as of 13/7/21
 
 # Resources
 
-* Based on https://github.com/samlittlewood/caravel_carrier
-* Based on https://raw.githubusercontent.com/efabless/caravel/release/doc/caravel_datasheet.pdf
+* PCB forked from https://github.com/samlittlewood/caravel_carrier
+* Caravel datasheet: https://caravel-harness.readthedocs.io/en/latest
 * Logo created at: http://oshwmark.capablerobot.com/
 * PCBs sponsored by https://OSHPark.com
 
