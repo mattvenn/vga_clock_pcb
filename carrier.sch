@@ -369,7 +369,7 @@ Wire Wire Line
 Text GLabel 6050 1300 2    50   Output ~ 0
 clock
 Wire Wire Line
-	5400 1300 6050 1300
+	5400 1300 5750 1300
 $Comp
 L Device:C_Small C11
 U 1 1 5FE1ABC4
@@ -2593,4 +2593,135 @@ Text Notes 2100 1450 0    50   ~ 0
 csb
 Text Notes 2100 1650 0    50   ~ 0
 clk
+Text Notes 9100 1000 0    50   ~ 0
+3.3v
+Text Notes 8150 1250 0    50   ~ 0
+1.8v
+$Comp
+L Connector:TestPoint TP6
+U 1 1 61161697
+P 5750 1300
+F 0 "TP6" V 5945 1372 50  0000 C CNN
+F 1 "TestPoint" V 5854 1372 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5950 1300 50  0001 C CNN
+F 3 "~" H 5950 1300 50  0001 C CNN
+	1    5750 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 1300
+Wire Wire Line
+	5750 1300 6050 1300
+$Comp
+L Connector:TestPoint TP10
+U 1 1 61161D52
+P 8600 1050
+F 0 "TP10" V 8795 1122 50  0000 C CNN
+F 1 "TestPoint" V 8704 1122 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8800 1050 50  0001 C CNN
+F 3 "~" H 8800 1050 50  0001 C CNN
+	1    8600 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 8600 1050
+$Comp
+L Connector:TestPoint TP11
+U 1 1 611638EA
+P 9700 1050
+F 0 "TP11" V 9895 1122 50  0000 C CNN
+F 1 "TestPoint" V 9804 1122 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9900 1050 50  0001 C CNN
+F 3 "~" H 9900 1050 50  0001 C CNN
+	1    9700 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 9700 1050
+$Comp
+L Connector:TestPoint TP9
+U 1 1 61163FBB
+P 7850 1400
+F 0 "TP9" V 8045 1472 50  0000 C CNN
+F 1 "TestPoint" V 7954 1472 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8050 1400 50  0001 C CNN
+F 3 "~" H 8050 1400 50  0001 C CNN
+	1    7850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 61166DD8
+P 7250 6000
+F 0 "TP7" V 7445 6072 50  0000 C CNN
+F 1 "TestPoint" V 7354 6072 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7450 6000 50  0001 C CNN
+F 3 "~" H 7450 6000 50  0001 C CNN
+	1    7250 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 611683F7
+P 7250 6300
+F 0 "TP8" V 7445 6372 50  0000 C CNN
+F 1 "TestPoint" V 7354 6372 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7450 6300 50  0001 C CNN
+F 3 "~" H 7450 6300 50  0001 C CNN
+	1    7250 6300
+	0    -1   -1   0   
+$EndComp
+Text Label 7250 6000 0    50   ~ 0
+hsync
+Text Label 7250 6300 0    50   ~ 0
+vsync
+Text GLabel 4650 6650 2    50   Input ~ 0
+flash_clk
+Text GLabel 4650 6750 2    50   Input ~ 0
+flash_csb
+Text GLabel 4650 6850 2    50   Input ~ 0
+flash_io0
+Text GLabel 4650 6950 2    50   Input ~ 0
+flash_io1
+$Comp
+L Connector:TestPoint TP2
+U 1 1 61175443
+P 4650 6650
+F 0 "TP2" V 4845 6722 50  0000 C CNN
+F 1 "TestPoint" V 4754 6722 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4850 6650 50  0001 C CNN
+F 3 "~" H 4850 6650 50  0001 C CNN
+	1    4650 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 61175B0E
+P 4650 6750
+F 0 "TP3" V 4845 6822 50  0000 C CNN
+F 1 "TestPoint" V 4754 6822 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4850 6750 50  0001 C CNN
+F 3 "~" H 4850 6750 50  0001 C CNN
+	1    4650 6750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 61176075
+P 4650 6850
+F 0 "TP4" V 4845 6922 50  0000 C CNN
+F 1 "TestPoint" V 4754 6922 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4850 6850 50  0001 C CNN
+F 3 "~" H 4850 6850 50  0001 C CNN
+	1    4650 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 6117662A
+P 4650 6950
+F 0 "TP5" V 4845 7022 50  0000 C CNN
+F 1 "TestPoint" V 4754 7022 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4850 6950 50  0001 C CNN
+F 3 "~" H 4850 6950 50  0001 C CNN
+	1    4650 6950
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

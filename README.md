@@ -80,7 +80,13 @@ See the design repository here: https://github.com/mattvenn/vga-clock/tree/db029
 
 ## Power
 
-* Powergrid for the user project area has 4 buses. From outside to inside:  VSSA2, VDDA2, VSSA1, VDDA1, VSSD2, VCCD2, VSSD1, VCCD1.
+### User project
+
+* Power is provided to the clock design only by VCCD1 and VSSD1.
+* Tim Edwards suggests:
+    * keeping VCCD2 and VCCD1, VSSD2 and VSSD1 tied together just to make sure there are no floating power supplies.  
+    * connect VDDA1 and VDDA2 to VDDIO, and VSSA1 and VSSA2 to VSSIO to make sure they're not floating.  
+For reference, the power ring around the user project area has 4 buses. From outside to inside:  VSSA2, VDDA2, VSSA1, VDDA1, VSSD2, VCCD2, VSSD1, VCCD1.
     * VSSA2 user area 2 ground
     * VDDA2 3.3V user area 2 psu
     * VSSA1 user area 1 ground
@@ -90,11 +96,11 @@ See the design repository here: https://github.com/mattvenn/vga-clock/tree/db029
     * VSSD1 user area 1 digital ground
     * VCCD1 1.8V user area 1 digital psu
 
-* Tim Edwards suggests:
-    * keeping VCCD2 and VCCD1, VSSD2 and VSSD1 tied together just to make sure there are no floating power supplies.  
-    * connect VDDA1 and VDDA2 to VDDIO, and VSSA1 and VSSA2 to VSSIO to make sure they're not floating.  
+### Management
 
-* Power is provided to the module only by VCCD1 and VSSD1.
+* VDDIO/VSSIO   power and ground for IO (up to 5v). I'm connecting to 3.3v
+* VDDA/VSSA     3.3v PSU for management area
+* VCCD/VSSD     1.8v PSU for management area
 
 # BOM
 
