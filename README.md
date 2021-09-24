@@ -115,6 +115,17 @@ All available from digikey as of 13/7/21
 * USB connector: 1050170001
 * buttons: PTS636 SM25J SMTR LFS
 
+# Errata
+
+## v0.1
+
+* Initial footprint for ASIC was flipped. 
+* All other components were tested and worked as expected.
+
+## v0.2
+
+* TBD
+
 # Resources
 
 * PCB forked from https://github.com/samlittlewood/caravel_carrier
@@ -122,7 +133,7 @@ All available from digikey as of 13/7/21
 * Logo created at: http://oshwmark.capablerobot.com/
 * PCBs sponsored by https://OSHPark.com
 
-## License
+# License
 
 * The PCB is licensed under the [MIT License](LICENSE)
 * The ASIC is licensed under the [Apache2 License](https://github.com/mattvenn/vga-clock/blob/master/LICENSE-2.0.txt)

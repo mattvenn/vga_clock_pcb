@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ASIC VGA"
-Date "2021-07-02"
-Rev "0.1"
+Date "2021-09-24"
+Rev "0.2"
 Comp "Matt Venn"
 Comment1 ""
 Comment2 ""
@@ -2722,6 +2722,28 @@ F 1 "TestPoint" V 4754 7022 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4850 6950 50  0001 C CNN
 F 3 "~" H 4850 6950 50  0001 C CNN
 	1    4650 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 614E27EA
+P 4650 7300
+F 0 "TP12" V 4845 7372 50  0000 C CNN
+F 1 "TestPoint" V 4754 7372 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4850 7300 50  0001 C CNN
+F 3 "~" H 4850 7300 50  0001 C CNN
+	1    4650 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 614E2C8B
+P 4650 7300
+F 0 "#PWR0106" H 4650 7050 50  0001 C CNN
+F 1 "GND" H 4655 7127 50  0000 C CNN
+F 2 "" H 4650 7300 50  0001 C CNN
+F 3 "" H 4650 7300 50  0001 C CNN
+	1    4650 7300
 	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
